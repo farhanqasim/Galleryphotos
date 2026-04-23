@@ -26,8 +26,7 @@ const Folders = () => {
     <section className="page">
       <div className="page-header">
         <div>
-          <h1>Your Folders</h1>
-          <p>Create folders and organize all your uploaded images.</p>
+          <h1>Folders</h1>
         </div>
         <button className="btn" onClick={() => setIsUploadOpen(true)}>
           Upload Image
@@ -35,7 +34,6 @@ const Folders = () => {
       </div>
 
       <form className="card folder-form" onSubmit={handleCreateFolder}>
-        <h2>Create New Folder</h2>
         <div className="inline-form">
           <input
             className="input"
